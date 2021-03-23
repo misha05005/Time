@@ -1,28 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lesson23</title>
-    <link rel="stylesheet" href="assets/style/style.css">
-</head>
-<body>
-    <div class="clock">
-       <div class="hour">
-            <div class="hr" id="hr"></div>
-        </div>
-       
-        <div class="min">
-            <div class="mn" id="mn"></div>
-        </div>
-      
-        <div class="sec">
-            <div class="sc" id="sc"></div>   
-        </div>
-    </div>
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <!-- Styles -->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <script src="assets/js/script.js"></script>
-</body>
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="counter">
+            <div class="counter__inner">
+                <span class="counter__hour" id="counter__hour">00</span><span class="counter__sep">:</span>
+                <span class="counter__minutes" id="counter__minutes">00</span><span class="counter__sep">:</span>
+                <span class="counter__seconds" id="counter__seconds">00</span>
+            </div>
+
+            <button type="button" class="counter__start-pause" id="counter__start-pause">Start Timer</button>
+            <button type="button" class="counter__reset" id="counter__reset">Reset</button>
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/scripts.js"></script>
+    </body>
 </html>

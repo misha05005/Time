@@ -1,0 +1,12 @@
+.counter__inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    flex-flow: row nowrap;
+}
+
+.counter__sep {
+    text-align: center;
+}
